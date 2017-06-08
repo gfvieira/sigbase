@@ -19,7 +19,7 @@ public class AuthenticationFilter implements Filter {
 
     private ServletContext context;
     private Usuario usuario;
-    private final String urlContexto = "bigupetshop";
+    private final String urlContexto = "sigbase";
 
     @Override
     public void init(FilterConfig fConfig) throws ServletException {
